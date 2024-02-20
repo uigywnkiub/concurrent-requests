@@ -32,8 +32,7 @@ export default async function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Some pet projects by
-            <br /> Volodymyr Gerun.
+            Some of my pet projects
           </p>
         </Link>
       </div>

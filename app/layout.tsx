@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "DevIT | Volodymyr Gerun",
-  description: "Test assignment",
+  title: "Concurrent Requests",
 };
 
 export default function RootLayout({
@@ -19,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <link
         rel="icon"
-        href="https://devit-team.com/app/uploads/2019/01/logo.svg"
+        href="https://logos.fandom.com/wiki/File:Vercel_favicon.svg"
         sizes="image/svg+xml"
       />
       <body className={inter.className} suppressHydrationWarning={true}>

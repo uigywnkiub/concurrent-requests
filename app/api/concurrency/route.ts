@@ -93,7 +93,7 @@ export async function POST(
 //   redis,
 //   limiter: Ratelimit.tokenBucket(10, "10 s", 100),
 //   analytics: true,
-//   prefix: "@DevIT test",
+//   prefix: "@concurrency-requests",
 // });
 
 // export async function POST(
@@ -117,7 +117,7 @@ export async function POST(
 //     // await redis.incr(key);
 //     // await redis.expire(key, 1);
 
-//     const { success } = await ratelimit.limit("devit-tt");
+//     const { success } = await ratelimit.limit("concurrency-requests");
 
 //     if (!success) {
 //       return NextResponse.json({ error: "Too Many Requests" }, { status: 429 });
