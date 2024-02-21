@@ -19,6 +19,11 @@ const workerLogic = async (concurrencyLimit, requestsPerSecond) => {
       };
 
       const response = await fetch("/api/concurrency", options);
+      // const response = await fetch(
+      //   "http://localhost:3333/concurrency",
+      //   options
+      // );
+      // const response = await fetch("https://concurrent-requests-api-eevywnkeel.vercel.app/api/concurrency", options);
       const data = await response.json();
 
       if ("error" in data) {

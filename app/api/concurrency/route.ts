@@ -40,6 +40,10 @@ const clearOldTimestamps = () => {
 };
 clearOldTimestamps();
 
+export const config = {
+  runtime: "edge", // this is a pre-requisite
+};
+
 export async function POST(
   req: NextApiRequest & Request,
   res: NextApiResponse
