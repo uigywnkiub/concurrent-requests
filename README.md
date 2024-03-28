@@ -1,4 +1,4 @@
-## About
+# Concurrent Requests
 
 This project features client-serverless data fetching with a worker. The input fields set concurrency requests limit and requests per second limit. Server responds with an index from the passed worker's POST request. If over 50 requests/sec, server returns 429 error. Client displays responses with every index number with user limits.
 
